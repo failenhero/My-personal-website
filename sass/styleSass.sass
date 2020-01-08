@@ -1,4 +1,4 @@
-$hovercolor: #008080
+$hovercolor: #8A2BE2
 $standardColor: #007bff
 $backgroundColor: #2c3e50
 $textHoverColor: #000000
@@ -12,6 +12,7 @@ body
 
 .upbtn
 	position: fixed
+	display: none
 	right: 70px
 	bottom: 50px
 	transition: 0.5s all
@@ -20,9 +21,10 @@ body
 		color: $textHoverColor
 
 @media ( max-width:  411px)
-	.upbtn
-		right: 15px
-		bottom: 10px
+    .upbtn
+	    right: 15px
+	    bottom: 10px
+
 
 .card
     border-color: $standardColor
@@ -109,3 +111,7 @@ nav .start-contact, a:nth-child(5):hover~.animation
 nav a:hover 
     color: $textHoverColor
     text-decoration: none
+
+@media ( max-width:  411px)
+    .mainNav
+        width: 100%
