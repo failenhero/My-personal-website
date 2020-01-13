@@ -3,12 +3,18 @@ $standardColor: #007bff
 $backgroundColor: #2c3e50
 $textHoverColor: #000000
 $standardMargin: 30px
+$standardFontSize: 12px
+$standardFontFamily: sans-serif
+$standardBorderWidth: 5px
 
 body
-    font-size: 12px
-    font-family: sans-serif
+    font-size: $standardFontSize
+    font-family: $standardFontFamily
     background: $backgroundColor
 
+.btn:hover
+    background-color: $hovercolor
+    color: $textHoverColor
 
 .upbtn
 	position: fixed
@@ -16,9 +22,6 @@ body
 	right: 70px
 	bottom: 50px
 	transition: 0.5s all
-	&:hover
-		background-color: $hovercolor
-		color: $textHoverColor
 
 @media ( max-width:  411px)
     .upbtn
@@ -28,7 +31,7 @@ body
 
 .card
     border-color: $standardColor
-    border-width: 4px
+    border-width: $standardBorderWidth
 
 .card-body
     background-color: $backgroundColor
@@ -115,3 +118,8 @@ nav a:hover
 @media ( max-width:  411px)
     .mainNav
         width: 100%
+
+.popupButton
+    display: block
+    margin: $standardMargin auto
+
