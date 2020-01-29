@@ -161,4 +161,27 @@ nav a:hover {
   margin: 30px auto;
 }
 
+/* line 126, ../../Программирование/my first personal website/My-personal-website/sass/styleSass.sass */
+.contactsElement {
+  float: left;
+  width: 50px;
+  margin-left: 50px;
+}
+
+/* line 131, ../../Программирование/my first personal website/My-personal-website/sass/styleSass.sass */
+.contactsContent {
+  float: left;
+  width: 200px;
+  font-size: 17px;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 5px;
+}
+
+/* line 139, ../../Программирование/my first personal website/My-personal-website/sass/styleSass.sass */
+.contactsContainer {
+  overflow: hidden;
+  margin: 30px;
+}
+
 /*# sourceMappingURL=styleSass.css.map */
